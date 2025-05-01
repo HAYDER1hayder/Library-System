@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Borrower{
-    private String name;
+    private String name;// Attribute _ Encapsulation 
     private String studentId;
     private List<Book> borrowedBooks;
-
-    public Borrower(String name, String studentId) {
+    
+    // Constructors avec parameter
+    public Borrower(String name, String studentId) { 
         this.name = name;
         this.studentId = studentId;
         this.borrowedBooks = new ArrayList<>();
@@ -25,7 +26,7 @@ public class Borrower{
         borrowedBooks.remove(book);
     }
 
-    public List<Book> getBorrowedBooks() {
+    public List<Book> getBorrowedBooks() {// Function of type List<Book> 
         return borrowedBooks;
     }
 }
