@@ -3,9 +3,9 @@ package com.hayder.LibrarySystem.Classes;
 import java.util.*;
 
 public class LibrarySystem {
-    private List<Book> books;
-    private List<Borrower> borrowers;
-    private List<BorrowingProcess> borrowings;
+    private List<Book> books;    //HAS A
+    private List<Borrower> borrowers;   //HAS A
+    private List<BorrowingProcess> borrowings;    //HAS A
     private Scanner scanner;
 
     public LibrarySystem() {
@@ -17,7 +17,7 @@ public class LibrarySystem {
 
     public void run() {
         while (true) {
-            System.out.println("\n--Booooooooooooooooooook--");
+            System.out.println("\n-----library management system-----");
             System.out.println("1_ add Book ");
             System.out.println("2_add Borrower");
             System.out.println("3_borrow Book");
