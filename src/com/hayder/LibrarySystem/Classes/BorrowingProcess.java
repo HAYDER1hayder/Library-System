@@ -1,12 +1,13 @@
 package com.hayder.LibrarySystem.Classes;
+// Create a package 
 
 import java.time.LocalDate;
 
 public class BorrowingProcess {
-    private Book book;
-    private Borrower borrower;
-    private LocalDate borrowDate;
-    private LocalDate returnDate;
+    private Book book;// HAS A
+    private Borrower borrower;// HAS A
+    private LocalDate borrowDate;// HAS A 
+    private LocalDate returnDate;// HAS A
 
     public BorrowingProcess(Book book, Borrower borrower) {
         this.book = book;
