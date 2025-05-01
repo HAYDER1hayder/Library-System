@@ -3,9 +3,9 @@ package com.hayder.LibrarySystem.Classes;
 import java.util.*;
 
 public class LibrarySystem {
-    private List<Book> books;    //HAS A
-    private List<Borrower> borrowers;   //HAS A
-    private List<BorrowingProcess> borrowings;    //HAS A
+    private List<Book> books;    // HAS A
+    private List<Borrower> borrowers;   // HAS A
+    private List<BorrowingProcess> borrowings;    // HAS A
     private Scanner scanner;
 
     public LibrarySystem() {
@@ -29,7 +29,7 @@ public class LibrarySystem {
 
             System.out.print("only one choice ... : ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // استهلاك السطر
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -71,7 +71,7 @@ public class LibrarySystem {
         System.out.print("1_Paper ...2_EPook :");
         int type = scanner.nextInt();
         scanner.nextLine();
-
+        // polymorphism
         Book book = (type == 1) ? new PrintedBook(title, author, isbn) : new EBook(title, author, isbn);
         books.add(book);
         System.out.println("The book has been added ...");
