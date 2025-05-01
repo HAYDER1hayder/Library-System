@@ -42,11 +42,20 @@ A simple Java-based Library Management System that supports two types of roles:
 
 5.Employment: Composition _(LibrarySystem-Borrower). 
 
-6.Employment: Abstraction => class interface _(Borrowable)/ Abstraction => class abstract _(Book).
+6.Employment: Abstraction => class interface _(Borrowable)
+              Abstraction => class abstract _(Book).
 
 7.Employment: Override _(EBook-PrintedBook). 
 
 ## TP_1
+
+... 
+
+## TP_2
+
+https://github.com/HAYDER1hayder/TP_2
+
+
 
 
 
