@@ -1,5 +1,6 @@
 package com.hayder.LibrarySystem.Classes;
 
+// class abstract _ inheritance 
 public abstract class Book implements Borrowable {
     protected String title;
     protected String author;
