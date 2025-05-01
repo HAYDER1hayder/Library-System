@@ -30,6 +30,17 @@ A simple Java-based Library Management System that supports two types of roles:
    javac src/com/hayder/LibrarySystem/Main/Main.java
    java -cp src/com/hayder/LibrarySystem/Main/Main
 ```
+## Concepts used in the project 
+
+1.Employment: Class _ Constructor _ Object 
+2.Employment: Attributes _ Methods 
+3.Employment: Encapsulation _(Book-Borrower-BorrowingProcess-LibrarySystem) 
+4.Employment: Inheritance _(EBook-PrintedBook) 
+5.Employment: Composition _(LibrarySystem-Borrower) 
+6.Employment: Abstraction => class interface _(Borrowable) 
+              Abstraction => class abstract _(Book) 
+7.Employment: Override _(EBook-PrintedBook) 
+
 
 
 
