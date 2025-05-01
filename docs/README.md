@@ -47,13 +47,13 @@ A simple Java-based Library Management System that supports two types of roles:
 
 7.Employment: Override _(EBook-PrintedBook). 
 
-## TP_1
+## TP_Heritage_java
 
-... 
+https://github.com/HAYDER1hayder/TP_Heritage_java
 
-## TP_2
+## TP_2_Heritage_java
 
-https://github.com/HAYDER1hayder/TP_2
+https://github.com/HAYDER1hayder/TP_2_Heritage_java
 
 
 
