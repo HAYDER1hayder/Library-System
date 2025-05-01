@@ -13,9 +13,9 @@ A simple Java-based Library Management System that supports two types of roles:
     - Add borrowers.
     - Return borrowed books.
     - View all books and borrowers.
-    - Search for books by title or ISBN.
-    - Borrow available books.
-    - View list of borrowed books.
+    - Search for books by ISBN.
+    - Borrow available books by ID.
+    - View list of borrowed books by ID.
 
 ---
 
